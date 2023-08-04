@@ -1,0 +1,236 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    top: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 10px antiquewhite;
+    position: sticky;
+    top: 0;
+    background-color: aliceblue;
+    z-index: 1;
+}
+img{
+    width: 100px;
+    margin-left: 26px;
+    border-radius: 50%;
+    mix-blend-mode: darken;
+}
+#text2{
+    position: relative;
+  
+    top: 30rem;
+}
+select{
+    
+    width: 14rem;
+    height: 43px;
+    font-size: 25px;
+    text-align: center;
+    border: none;
+    background: none;
+  
+    color: black;
+}
+select >option{
+    font-size: 20px;
+   
+}
+.right{
+    display: flex;
+    
+    margin-right:127px;
+}
+p{
+    margin: 0px 20px;
+}
+p>a{
+    text-decoration: none;
+    font-size: 26px;
+}
+p>a:hover{
+    color: red;
+}
+
+.img{
+   
+
+    width: 100%;
+    height: 90vh;
+    
+    
+    background: url("https://images.cnbctv18.com/wp-content/uploads/2023/02/Hiring-jobs-1019x573.jpg") center center/cover no-repeat ;
+    background-attachment: fixed;
+}
+
+#text2{
+    font-size: 30px;
+    color: whitesmoke;
+   
+}
+.btn{
+    display: flex;
+   
+    margin-top: 34rem;
+}
+button{
+    padding: 10px 12px;
+    font-size: 23px;
+    margin: 5px 27px;
+    cursor: pointer ;
+    transition:.8s ease all;
+    border-radius: 10px;
+}
+button:hover{
+    background-color:orangered;
+}
+.container{
+    display: grid;
+   grid-template-columns: repeat(3,1fr);
+   justify-content: center;
+   
+ margin-left: 50px;
+ margin-top: 10px;
+}
+.lock{
+    width: 26rem;
+    height: 10rem;
+   
+    text-align: center;
+    background-color: wheat;
+    border-radius: 20px;
+    margin: 10px;
+ opacity: 1;
+
+   }
+.num{
+    font-size: 30px;
+    margin-top: 30px;
+}
+.name{
+    font-size: 40px;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search >input{
+    width: 26%;
+    height: 3rem;
+    text-align: center;
+    font-size: 25px;
+    margin: 3px;
+}
+.search >button{
+    border-radius: 10px;
+}
+ marquee>a >img{
+  
+    width: 10rem;
+    height: 7rem;
+    margin: 15px;
+   
+} 
+marquee{
+    background-color: beige;
+}
+.hrr{
+    margin-top: 12px;
+}
+.cad {
+    display: flex;
+    justify-content: space-evenly;
+    height: 30rem;
+    
+}
+.card-img-top{
+    width: 17rem;
+    height: 15rem;
+    margin-right: 40px;
+    mix-blend-mode: darken;
+   
+    
+}
+h5{
+    text-align: center;
+    font-size: 25px;
+}
+.com{
+    font-size: 30px;
+}
+.card-text{
+    color:#8b9dc3 ;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.social a>img{
+    width: 30px;
+    padding-top: 15px;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.subs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#txt{
+    width: 20rem;
+}
+#up{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 23px;
+}
+.sec{
+    margin: 34px 23px;
+}
+footer{
+    width: 100%;
+    height: 100%;
+    background-color:#f5f7fa!important;;
+}
+.subscribe{
+    border-radius: 10px;
+    font-size: 19px;
+    padding: 12px 12px ;
+    
+    margin-bottom: 33px;
+    
+}
+.email{
+    text-align: center;
+}
+.lorem{
+    text-align: center;
+    font-size: 20px;
+    margin-inline: 60px;
+}
+.copyright{
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
